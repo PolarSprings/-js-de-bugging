@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Benjamin Noyes Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,400,600,700,900|Work+Sans:200,300,400,500,600,700,800" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <section id="MyPortfolio">
+      <div class="logo">
+        <a href="index.html"><img src="pictures\Logos\Asset_x_Copy.png" alt="circle icon"></a>
+      </div>
+      <div id="Name">
+        <h1><a href="index.html">Benjamin Noyes | My Portfolio</a></h1>
+      </div>
+    </section>
+  </header>
+  <nav id="navbar">
+    <div id="topnav" class="black">
+      <svg class="ham hamRotate ham7" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+        <path
+          class="line top"
+          d="m 70,33 h -40 c 0,0 -6,1.368796 -6,8.5 0,7.131204 6,8.5013 6,8.5013 l 20,-0.0013" />
+        <path
+          class="line middle"
+          d="m 70,50 h -40" />
+        <path
+          class="line bottom"
+          d="m 69.575405,67.073826 h -40 c -5.592752,0 -6.873604,-9.348582 1.371031,-9.348582 8.244634,0 19.053564,21.797129 19.053564,12.274756 l 0,-40" />
+      </svg>
+    </div>
+    <div id="mainmenu" class="nada">
+      <ul class="menu">
+        <li><a href="work.html">Work</a></li>
+        <li><a href="article.html">Articles</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <section id="homepagemain">
+      <article id="layer">
+        <section class="section hello">
+          <h2 class="hello">Hello.</h2>
+          <h3 class="workspace"><span class="workspacebold">I'm Ben.</span><span class="workspacelight">  Welcome to my work space.</span></h3>
+        </section>
+        <section class="section slider">
+          <div id="sliderflex">
+            <div class="slider-previous">
+              <button class="previous"></button>
+            </div>
+            <div class="slider-wrapper">
+              <div class="reframe slide">
+                <a href="https://www.linkedin.com/pulse/when-going-gets-tough-case-brand-led-market-research-benjamin-noyes">
+                  <img src="pictures\Cover_images\01Rexona.PNG" class="resize" alt="Brand Led MR image">
+                <span class="caption">Article: The Case for Brand Led Market Research</span></a>
+              </div>
+              <div class="reframe slide">
+                <a href="work_social.html">
+                  <img src="pictures\Cover_images\06Social_Media.png" class="resize" alt="Social Media image">
+                <span class="caption">Work: Social Media Reorganization</span></a>
+              </div>
+              <div class="reframe slide">
+                <a href="http://www.labbrand.com/uploads/file/labreport-june-platform-brands.pdf">
+                  <img src="pictures\Cover_images\03Platforms.jpg" class="resize" alt="Platform Branding image">
+                <span class="caption">Article: The New Landscape of Platform Brands</span></a>
+              </div>
+            </div>
+            <div class="slider-next">
+              <button class="next"></button>
+            </div>
+          </div>
+        </section>
+        <section class="section short">
+          <div class="writing">
+            <h5>As a <span class="bold">writer,</span> I bring a creative edge to the table.</h5>
+            <p>To me that means going deeper into the stuff that connects us.</p>
+            <p>A quick sidebar, to paint an example. Remember the straw crisis? Odds are you  leaned in favor of saving a sea turtle or two, at some point. Starbucks even <span class="hyperlink" onclick="window.open('https://www.nationalgeographic.com/environment/2018/07/news-plastic-drinking-straw-history-ban/')">created a lid because of it.</span>
+               Although straws ended up not being the issue at hand, it created real, positive conscientiousness around an important topic. People relate to it.</p>
+            <p>If your goal is impact, write content with an ear to the ground. I like social for this - it has <span class="puppyfade">the perfect puppy:news ratio.</span></p><span class="bone"><span id="puppemoji">🐶</span></span>
+
+            <p>When I'm not scrolling through Instagram...</p>
+          </div>
+        </section>
+        <section class="section short2">
+          <div class="writingh5">You’ll find me listening to beats, going for a hike, or enjoying a good movie. </div>
+          <div class="writing"><div class="ctabutton"><span id="emoji">Say hey <span class="white">   .</span></span></div></div>
+          <div class="nada2">
+            <div>
+              <form action = "www.johncena.com" method="post" class="form">
+                <h6 class="yourinfo">Your contact info</h6>
+                <div class="input">
+                  <label for="name">what's your name?</label>
+                  <input type="text" id="name" placeholder="name...">
+                </div>
+                <div class="input">
+                  <label for="email">how do we reach you?</label>
+                  <input type="text" id="email" placeholder="email...">
+                </div>
+                <div class="input">
+                  <label for="place">where are you from?*</label>
+                  <input type="text" id="place" placeholder="city...">
+                  <p class="error">*This field is required.</p>
+                </div>
+                <div class="input">skills:
+                  <select name="skills" id="skills">
+                    <option value="racecar driver">racecar driver</option>
+                    <option value="apple tosser">apple tosser</option>
+                    <option value="canoli tester">canoli tester</option>
+                  </select>
+                </div>
+                <div class="input">
+                  <label for="subject">your interests?</label>
+                  <textarea name="subject" id="subject" rows="10" placeholder="coffee or beer..."></textarea>
+                </div>
+                <div class="inputdone">
+                  <input type="submit" value="Submit">
+                </div>
+              </form>
+            </div>
+          </div>
+          <div id="fake" class="hidden2">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <p class="thisisfake">Fake form</p>
+            <p>that didn't go anywhere. email me through the footer.</p>
+          </div>
+          <div id="success" class="hidden2">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <p class="thisisfake">Success! But...</p>
+            <p>this form is 100% fake. email me through the footer.</p>
+          </div>
+        </section>
+        <section id="emailtap" class="hidden">
+          <p>noyesbenjamin@gmail.com</p>
+        </section>
+      </article>
+    </section>
+  </main>
+  <footer id="footer">
+    <a href="https://www.linkedin.com/in/benjaminbnoyes/"><span class="resize"><i class="fa fa-linkedin"></i></span></a>
+    <a href="https://git.generalassemb.ly/ShenGuangVC"><span class="resize"><i class="fa fa-github"></i></span></a>
+    <a href="https://open.spotify.com/user/12166719702?si=ukOwfQCWTiWMVdSR75KLbA"><span class="resize"><i class="fa fa-spotify"></i></span></a>
+    <a><span class="wechat"> bennoyes </span><span class="wechat"><i class="fab fa-weixin"></i></span></a>
+    <a href="https://soundcloud.com/bennoyes-onb"><span class="resize"><i class="fab fa-soundcloud"></i></span></a>
+    <div class="contact">
+      <p><span class="mew">email me</span><span><i class="far fa-envelope"></i></span></p>
+    </div>
+  </footer>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
